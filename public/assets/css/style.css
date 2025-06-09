@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Constantia';
+    src: url("../fonts/Constantia.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: Constantia, sans-serif;
+}
+
+.inf {
+    width: 80%;
+    border: 2px solid black;
+    padding: 30px 60px;
+    margin: 20px;
+}
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.font {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.font-little {
+    font-size: 1.2em;
+}
+.create-butt {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.back-butt {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 20px 10px;
+    margin: 20px;
+    background-color: #BFD6F6;
+    cursor: pointer;
+}
+
+.alert {
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+.alert-success, .alert-danger {
+    background-color: #405C73;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.create-form {
+    font-size: 1.2em;
+}
+.create-form p {
+    padding: 10px;
+}
+.create-form input {;
+    height: 50px;
+}
+.create-form select {;
+    height: 50px;
+}
+.edit-form {
+    font-size: 1.2em;
+}
+.edit-form p {
+    padding: 10px;
+}
+.edit-form input {;
+    height: 50px;
+}
+.edit-form select {;
+    height: 50px;
+}
+tr {
+    font-size: 1.2em;
+}
+
